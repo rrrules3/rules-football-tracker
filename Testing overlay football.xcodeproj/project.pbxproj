@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		63CA7A822F8705A3002CE481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63CA7A6A2F8705A2002CE481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63CA7A712F8705A2002CE481;
+			remoteInfo = "Testing overlay football";
+		};
+		63CA7A8C2F8705A3002CE481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63CA7A6A2F8705A2002CE481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63CA7A712F8705A2002CE481;
+			remoteInfo = "Testing overlay football";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63CA7A722F8705A2002CE481 /* Testing overlay football.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Testing overlay football.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CA7A812F8705A3002CE481 /* Testing overlay footballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Testing overlay footballTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CA7A8B2F8705A3002CE481 /* Testing overlay footballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Testing overlay footballUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		63CA7A742F8705A2002CE481 /* Testing overlay football */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Testing overlay football";
+			sourceTree = "<group>";
+		};
+		63CA7A842F8705A3002CE481 /* Testing overlay footballTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Testing overlay footballTests";
+			sourceTree = "<group>";
+		};
+		63CA7A8E2F8705A3002CE481 /* Testing overlay footballUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Testing overlay footballUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63CA7A6F2F8705A2002CE481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CA7A7E2F8705A3002CE481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CA7A882F8705A3002CE481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63CA7A692F8705A1002CE481 = {
+			isa = PBXGroup;
+			children = (
+				63CA7A742F8705A2002CE481 /* Testing overlay football */,
+				63CA7A842F8705A3002CE481 /* Testing overlay footballTests */,
+				63CA7A8E2F8705A3002CE481 /* Testing overlay footballUITests */,
+				63CA7A732F8705A2002CE481 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63CA7A732F8705A2002CE481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63CA7A722F8705A2002CE481 /* Testing overlay football.app */,
+				63CA7A812F8705A3002CE481 /* Testing overlay footballTests.xctest */,
+				63CA7A8B2F8705A3002CE481 /* Testing overlay footballUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63CA7A712F8705A2002CE481 /* Testing overlay football */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63CA7A952F8705A3002CE481 /* Build configuration list for PBXNativeTarget "Testing overlay football" */;
+			buildPhases = (
+				63CA7A6E2F8705A2002CE481 /* Sources */,
+				63CA7A6F2F8705A2002CE481 /* Frameworks */,
+				63CA7A702F8705A2002CE481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				63CA7A742F8705A2002CE481 /* Testing overlay football */,
+			);
+			name = "Testing overlay football";
+			packageProductDependencies = (
+			);
+			productName = "Testing overlay football";
+			productReference = 63CA7A722F8705A2002CE481 /* Testing overlay football.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63CA7A802F8705A3002CE481 /* Testing overlay footballTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63CA7A982F8705A3002CE481 /* Build configuration list for PBXNativeTarget "Testing overlay footballTests" */;
+			buildPhases = (
+				63CA7A7D2F8705A3002CE481 /* Sources */,
+				63CA7A7E2F8705A3002CE481 /* Frameworks */,
+				63CA7A7F2F8705A3002CE481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63CA7A832F8705A3002CE481 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				63CA7A842F8705A3002CE481 /* Testing overlay footballTests */,
+			);
+			name = "Testing overlay footballTests";
+			packageProductDependencies = (
+			);
+			productName = "Testing overlay footballTests";
+			productReference = 63CA7A812F8705A3002CE481 /* Testing overlay footballTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63CA7A8A2F8705A3002CE481 /* Testing overlay footballUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63CA7A9B2F8705A3002CE481 /* Build configuration list for PBXNativeTarget "Testing overlay footballUITests" */;
+			buildPhases = (
+				63CA7A872F8705A3002CE481 /* Sources */,
+				63CA7A882F8705A3002CE481 /* Frameworks */,
+				63CA7A892F8705A3002CE481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63CA7A8D2F8705A3002CE481 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				63CA7A8E2F8705A3002CE481 /* Testing overlay footballUITests */,
+			);
+			name = "Testing overlay footballUITests";
+			packageProductDependencies = (
+			);
+			productName = "Testing overlay footballUITests";
+			productReference = 63CA7A8B2F8705A3002CE481 /* Testing overlay footballUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63CA7A6A2F8705A2002CE481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					63CA7A712F8705A2002CE481 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					63CA7A802F8705A3002CE481 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = 63CA7A712F8705A2002CE481;
+					};
+					63CA7A8A2F8705A3002CE481 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = 63CA7A712F8705A2002CE481;
+					};
+				};
+			};
+			buildConfigurationList = 63CA7A6D2F8705A2002CE481 /* Build configuration list for PBXProject "Testing overlay football" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63CA7A692F8705A1002CE481;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 63CA7A732F8705A2002CE481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63CA7A712F8705A2002CE481 /* Testing overlay football */,
+				63CA7A802F8705A3002CE481 /* Testing overlay footballTests */,
+				63CA7A8A2F8705A3002CE481 /* Testing overlay footballUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63CA7A702F8705A2002CE481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CA7A7F2F8705A3002CE481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CA7A892F8705A3002CE481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63CA7A6E2F8705A2002CE481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CA7A7D2F8705A3002CE481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63CA7A872F8705A3002CE481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63CA7A832F8705A3002CE481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63CA7A712F8705A2002CE481 /* Testing overlay football */;
+			targetProxy = 63CA7A822F8705A3002CE481 /* PBXContainerItemProxy */;
+		};
+		63CA7A8D2F8705A3002CE481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63CA7A712F8705A2002CE481 /* Testing overlay football */;
+			targetProxy = 63CA7A8C2F8705A3002CE481 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63CA7A932F8705A3002CE481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63CA7A942F8705A3002CE481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		63CA7A962F8705A3002CE481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rrrules3.Testing-overlay-football";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		63CA7A972F8705A3002CE481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rrrules3.Testing-overlay-football";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		63CA7A992F8705A3002CE481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rrrules3.Testing-overlay-footballTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Testing overlay football.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Testing overlay football";
+			};
+			name = Debug;
+		};
+		63CA7A9A2F8705A3002CE481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rrrules3.Testing-overlay-footballTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Testing overlay football.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Testing overlay football";
+			};
+			name = Release;
+		};
+		63CA7A9C2F8705A3002CE481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rrrules3.Testing-overlay-footballUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Testing overlay football";
+			};
+			name = Debug;
+		};
+		63CA7A9D2F8705A3002CE481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rrrules3.Testing-overlay-footballUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Testing overlay football";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63CA7A6D2F8705A2002CE481 /* Build configuration list for PBXProject "Testing overlay football" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CA7A932F8705A3002CE481 /* Debug */,
+				63CA7A942F8705A3002CE481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63CA7A952F8705A3002CE481 /* Build configuration list for PBXNativeTarget "Testing overlay football" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CA7A962F8705A3002CE481 /* Debug */,
+				63CA7A972F8705A3002CE481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63CA7A982F8705A3002CE481 /* Build configuration list for PBXNativeTarget "Testing overlay footballTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CA7A992F8705A3002CE481 /* Debug */,
+				63CA7A9A2F8705A3002CE481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63CA7A9B2F8705A3002CE481 /* Build configuration list for PBXNativeTarget "Testing overlay footballUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CA7A9C2F8705A3002CE481 /* Debug */,
+				63CA7A9D2F8705A3002CE481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63CA7A6A2F8705A2002CE481 /* Project object */;
+}
