@@ -6,7 +6,7 @@
 //
 
 import Testing
-@testable import Testing_overlay_football
+@testable import Rules__Football_Tracker
 
 struct Testing_overlay_footballTests {
 

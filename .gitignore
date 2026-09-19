@@ -1,0 +1,27 @@
+# ── Xcode ────────────────────────────────────────────────────────────────────
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ── Swift Package Manager ─────────────────────────────────────────────────────
+.build/
+.swiftpm/
+
+# ── Secrets — NEVER COMMIT ───────────────────────────────────────────────────
+*.local.xcconfig
+Server/.env
+
+# ── Node / Server ─────────────────────────────────────────────────────────────
+Server/node_modules/
+Server/npm-debug.log*
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride

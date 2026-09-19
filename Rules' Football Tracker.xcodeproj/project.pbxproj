@@ -24,9 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		63CA7A722F8705A2002CE481 /* Testing overlay football.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Testing overlay football.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		63CA7A812F8705A3002CE481 /* Testing overlay footballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Testing overlay footballTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		63CA7A8B2F8705A3002CE481 /* Testing overlay footballUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Testing overlay footballUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CA7A722F8705A2002CE481 /* Rules' Football Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rules' Football Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CA7A812F8705A3002CE481 /* Rules' Football TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rules' Football TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CA7A8B2F8705A3002CE481 /* Rules' Football TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rules' Football TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E43E852FB28296005B1402 /* Rules--Football-Tracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Rules--Football-Tracker-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +76,7 @@
 		63CA7A692F8705A1002CE481 = {
 			isa = PBXGroup;
 			children = (
+				63E43E852FB28296005B1402 /* Rules--Football-Tracker-Info.plist */,
 				63CA7A742F8705A2002CE481 /* Testing overlay football */,
 				63CA7A842F8705A3002CE481 /* Testing overlay footballTests */,
 				63CA7A8E2F8705A3002CE481 /* Testing overlay footballUITests */,
@@ -85,9 +87,9 @@
 		63CA7A732F8705A2002CE481 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63CA7A722F8705A2002CE481 /* Testing overlay football.app */,
-				63CA7A812F8705A3002CE481 /* Testing overlay footballTests.xctest */,
-				63CA7A8B2F8705A3002CE481 /* Testing overlay footballUITests.xctest */,
+				63CA7A722F8705A2002CE481 /* Rules' Football Tracker.app */,
+				63CA7A812F8705A3002CE481 /* Rules' Football TrackerTests.xctest */,
+				63CA7A8B2F8705A3002CE481 /* Rules' Football TrackerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63CA7A712F8705A2002CE481 /* Testing overlay football */ = {
+		63CA7A712F8705A2002CE481 /* Rules' Football Tracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63CA7A952F8705A3002CE481 /* Build configuration list for PBXNativeTarget "Testing overlay football" */;
+			buildConfigurationList = 63CA7A952F8705A3002CE481 /* Build configuration list for PBXNativeTarget "Rules' Football Tracker" */;
 			buildPhases = (
 				63CA7A6E2F8705A2002CE481 /* Sources */,
 				63CA7A6F2F8705A2002CE481 /* Frameworks */,
@@ -110,16 +112,16 @@
 			fileSystemSynchronizedGroups = (
 				63CA7A742F8705A2002CE481 /* Testing overlay football */,
 			);
-			name = "Testing overlay football";
+			name = "Rules' Football Tracker";
 			packageProductDependencies = (
 			);
 			productName = "Testing overlay football";
-			productReference = 63CA7A722F8705A2002CE481 /* Testing overlay football.app */;
+			productReference = 63CA7A722F8705A2002CE481 /* Rules' Football Tracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		63CA7A802F8705A3002CE481 /* Testing overlay footballTests */ = {
+		63CA7A802F8705A3002CE481 /* Rules' Football TrackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63CA7A982F8705A3002CE481 /* Build configuration list for PBXNativeTarget "Testing overlay footballTests" */;
+			buildConfigurationList = 63CA7A982F8705A3002CE481 /* Build configuration list for PBXNativeTarget "Rules' Football TrackerTests" */;
 			buildPhases = (
 				63CA7A7D2F8705A3002CE481 /* Sources */,
 				63CA7A7E2F8705A3002CE481 /* Frameworks */,
@@ -133,16 +135,16 @@
 			fileSystemSynchronizedGroups = (
 				63CA7A842F8705A3002CE481 /* Testing overlay footballTests */,
 			);
-			name = "Testing overlay footballTests";
+			name = "Rules' Football TrackerTests";
 			packageProductDependencies = (
 			);
 			productName = "Testing overlay footballTests";
-			productReference = 63CA7A812F8705A3002CE481 /* Testing overlay footballTests.xctest */;
+			productReference = 63CA7A812F8705A3002CE481 /* Rules' Football TrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		63CA7A8A2F8705A3002CE481 /* Testing overlay footballUITests */ = {
+		63CA7A8A2F8705A3002CE481 /* Rules' Football TrackerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63CA7A9B2F8705A3002CE481 /* Build configuration list for PBXNativeTarget "Testing overlay footballUITests" */;
+			buildConfigurationList = 63CA7A9B2F8705A3002CE481 /* Build configuration list for PBXNativeTarget "Rules' Football TrackerUITests" */;
 			buildPhases = (
 				63CA7A872F8705A3002CE481 /* Sources */,
 				63CA7A882F8705A3002CE481 /* Frameworks */,
@@ -156,11 +158,11 @@
 			fileSystemSynchronizedGroups = (
 				63CA7A8E2F8705A3002CE481 /* Testing overlay footballUITests */,
 			);
-			name = "Testing overlay footballUITests";
+			name = "Rules' Football TrackerUITests";
 			packageProductDependencies = (
 			);
 			productName = "Testing overlay footballUITests";
-			productReference = 63CA7A8B2F8705A3002CE481 /* Testing overlay footballUITests.xctest */;
+			productReference = 63CA7A8B2F8705A3002CE481 /* Rules' Football TrackerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +188,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 63CA7A6D2F8705A2002CE481 /* Build configuration list for PBXProject "Testing overlay football" */;
+			buildConfigurationList = 63CA7A6D2F8705A2002CE481 /* Build configuration list for PBXProject "Rules' Football Tracker" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +202,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63CA7A712F8705A2002CE481 /* Testing overlay football */,
-				63CA7A802F8705A3002CE481 /* Testing overlay footballTests */,
-				63CA7A8A2F8705A3002CE481 /* Testing overlay footballUITests */,
+				63CA7A712F8705A2002CE481 /* Rules' Football Tracker */,
+				63CA7A802F8705A3002CE481 /* Rules' Football TrackerTests */,
+				63CA7A8A2F8705A3002CE481 /* Rules' Football TrackerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +260,12 @@
 /* Begin PBXTargetDependency section */
 		63CA7A832F8705A3002CE481 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 63CA7A712F8705A2002CE481 /* Testing overlay football */;
+			target = 63CA7A712F8705A2002CE481 /* Rules' Football Tracker */;
 			targetProxy = 63CA7A822F8705A3002CE481 /* PBXContainerItemProxy */;
 		};
 		63CA7A8D2F8705A3002CE481 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 63CA7A712F8705A2002CE481 /* Testing overlay football */;
+			target = 63CA7A712F8705A2002CE481 /* Rules' Football Tracker */;
 			targetProxy = 63CA7A8C2F8705A3002CE481 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -271,6 +273,8 @@
 /* Begin XCBuildConfiguration section */
 		63CA7A932F8705A3002CE481 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 63CA7A742F8705A2002CE481 /* Testing overlay football */;
+			baseConfigurationReferenceRelativePath = Config/Secrets.local.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -334,6 +338,8 @@
 		};
 		63CA7A942F8705A3002CE481 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 63CA7A742F8705A2002CE481 /* Testing overlay football */;
+			baseConfigurationReferenceRelativePath = Config/Secrets.local.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -389,9 +395,12 @@
 		};
 		63CA7A962F8705A3002CE481 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 63CA7A742F8705A2002CE481 /* Testing overlay football */;
+			baseConfigurationReferenceRelativePath = Config/Secrets.local.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Testing overlay football/Testing_overlay_football.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -399,6 +408,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rules--Football-Tracker-Info.plist";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -419,9 +430,12 @@
 		};
 		63CA7A972F8705A3002CE481 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 63CA7A742F8705A2002CE481 /* Testing overlay football */;
+			baseConfigurationReferenceRelativePath = Config/Secrets.local.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Testing overlay football/Testing_overlay_football.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -429,6 +443,8 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rules--Football-Tracker-Info.plist";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,6 +465,8 @@
 		};
 		63CA7A992F8705A3002CE481 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 63CA7A742F8705A2002CE481 /* Testing overlay football */;
+			baseConfigurationReferenceRelativePath = Config/Secrets.local.xcconfig;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -463,12 +481,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Testing overlay football.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Testing overlay football";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rules' Football Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rules' Football Tracker";
 			};
 			name = Debug;
 		};
 		63CA7A9A2F8705A3002CE481 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 63CA7A742F8705A2002CE481 /* Testing overlay football */;
+			baseConfigurationReferenceRelativePath = Config/Secrets.local.xcconfig;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,12 +503,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Testing overlay football.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Testing overlay football";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rules' Football Tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rules' Football Tracker";
 			};
 			name = Release;
 		};
 		63CA7A9C2F8705A3002CE481 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 63CA7A742F8705A2002CE481 /* Testing overlay football */;
+			baseConfigurationReferenceRelativePath = Config/Secrets.local.xcconfig;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -507,6 +529,8 @@
 		};
 		63CA7A9D2F8705A3002CE481 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 63CA7A742F8705A2002CE481 /* Testing overlay football */;
+			baseConfigurationReferenceRelativePath = Config/Secrets.local.xcconfig;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -526,41 +550,41 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		63CA7A6D2F8705A2002CE481 /* Build configuration list for PBXProject "Testing overlay football" */ = {
+		63CA7A6D2F8705A2002CE481 /* Build configuration list for PBXProject "Rules' Football Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63CA7A932F8705A3002CE481 /* Debug */,
 				63CA7A942F8705A3002CE481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		63CA7A952F8705A3002CE481 /* Build configuration list for PBXNativeTarget "Testing overlay football" */ = {
+		63CA7A952F8705A3002CE481 /* Build configuration list for PBXNativeTarget "Rules' Football Tracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63CA7A962F8705A3002CE481 /* Debug */,
 				63CA7A972F8705A3002CE481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		63CA7A982F8705A3002CE481 /* Build configuration list for PBXNativeTarget "Testing overlay footballTests" */ = {
+		63CA7A982F8705A3002CE481 /* Build configuration list for PBXNativeTarget "Rules' Football TrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63CA7A992F8705A3002CE481 /* Debug */,
 				63CA7A9A2F8705A3002CE481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		63CA7A9B2F8705A3002CE481 /* Build configuration list for PBXNativeTarget "Testing overlay footballUITests" */ = {
+		63CA7A9B2F8705A3002CE481 /* Build configuration list for PBXNativeTarget "Rules' Football TrackerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63CA7A9C2F8705A3002CE481 /* Debug */,
 				63CA7A9D2F8705A3002CE481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
